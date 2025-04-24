@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Functions</title>
+  </head>
+  <body>
+    <script>
+      // function function1() {
+      //   console.log('hello');
+      //   console.log(2 + 2);
+      // }
+      // function1();
+      // function1();
+      // /*
+      // RULES for functions naming
+      // 1. Can not name a function function.
+      // 2. can not start with a number.
+      // 3. can not have a space in the name.
+      // 4. can noyt use special characters like @, #, $, %, ^, &, *, (, 
+      //   ), !, +, =, {, }, {,} and so on
+      // 5. can not use reserved keywords like ffunction, 
+      // var, let, const, if, else, for, while, do, switch, case, break, continue, return, try, catch, finally, throw, class, extends, super, import, export and so on.
+      //   */
+
+      function calculateTax(parameter1) {
+        console.log (parameter1 * 0.1); 
+      }
+      // the parame ter only exist inside the function.
+      //the value 2000 and 5000 are called arguments.
+      //parameter1 is a parameter name.
+      //is follows the same naming rules as a variable name.
+      //a parameter helps put a value into a function.
+      // parameter is a placeholder for a value that will be passed when a function is called.
+      calculateTax(2000);
+      calculateTax(5000);
+
+      //multiple parameters
+      function multiparameter(a, b, c, d) {
+        console.log(a + b + c + d);
+      }
+      multiparameter(1, 2, 3, 4); //100
+
+      //set a default value for a function parameter.
+      function multiparameter(a, b, c, d = 0) {
+        console.log(a + b + c + d);
+      } //from the code the default value is 0.
+    </script>
+  </body>
+</html>
+
+
+
